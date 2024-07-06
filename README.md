@@ -25,6 +25,10 @@ This method is straightforward and efficient for small to moderately sized lists
 
 **Binary Search**
 
+Binary search is a more efficient algorithm than linear search for finding an element in a sorted list. It works by repeatedly dividing the search interval in half
+
+
+
 
 
 
