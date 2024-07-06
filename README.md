@@ -1,8 +1,8 @@
 # Python_Data_Structures
 
 **1 Linear search** 
-
 is a simple search algorithm that checks each element in a list one by one until the desired element is found or the list ends. 
+
 **Explanation:**
 
 Function Definition: linear_search(arr, target) takes a list arr and the target value to search for.
