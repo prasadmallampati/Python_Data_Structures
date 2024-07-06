@@ -23,7 +23,7 @@ This method is straightforward and efficient for small to moderately sized lists
 
 ----------------------------------------------------
 
-**Binary Search**
+**2 Binary Search**
 
 Binary search is a more efficient algorithm than linear search for finding an element in a sorted list. It works by repeatedly dividing the search interval in half
 
@@ -51,6 +51,33 @@ This method is much more efficient for large sorted lists compared to linear sea
 O(logn).
 
 
+---------------------------------------------------------
+
+**3 Greedy algorithm**
+
+A greedy algorithm is an approach for solving problems by making the most optimal choice at each step. This doesn't always produce the best overall solution but is useful in many scenarios. 
+
+
+Explanation:
+
+Function Definition: coin_change(coins, amount) takes a list of coin denominations coins and the target amount to make.
+
+Sorting: The coins are sorted in descending order to prioritize the largest denomination first.
+
+Initialization: count is initialized to zero to keep track of the total number of coins used.
+
+Loop: The loop iterates through each coin denomination.
+If the amount is zero, the loop breaks.
+The maximum number of the current coin that can be used is added to count.
+The remaining amount is updated using the modulus operator.
+
+Check Remaining Amount: If the remaining amount is not zero after the loop, it's not possible to make the given amount with the provided coins, so -1 is returned.
+
+Example Usage: Demonstrates how to use the coin_change function with a sample list of coins and target amount.
+This example illustrates the greedy algorithm by always picking the largest denomination first to minimize the number of coins. While this works for the coin change problem with typical denominations, it's important to note that greedy algorithms do not always yield optimal solutions for all problems.
+
+
+---------------------------------
 
 
 
