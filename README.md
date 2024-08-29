@@ -106,6 +106,7 @@ Bubble Sort is a simple comparison-based sorting algorithm. It works by repeated
 Here’s how the Bubble Sort algorithm works:
 
 Bubble Sort Algorithm:
+
 1.Compare adjacent elements: If the first element is greater than the second, swap them.
 
 2.Move to the next pair: Compare the next two adjacent elements and repeat the process.
