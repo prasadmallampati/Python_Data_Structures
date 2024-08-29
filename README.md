@@ -80,6 +80,44 @@ This example illustrates the greedy algorithm by always picking the largest deno
 ---------------------------------
 
 
+                                    Insertion Sort Algorithm
+            
+Insertion Sort is another simple comparison-based sorting algorithm, but it's generally more efficient than Bubble Sort for small datasets or nearly sorted arrays. The idea behind Insertion Sort is to build a sorted section of the list, one element at a time, by repeatedly picking the next element and inserting it into its correct position within the sorted section.
+
+Insertion Sort Algorithm:
+
+1.Start with the second element: Assume the first element is already sorted.
+
+2.Pick the next element: Compare it with the elements in the sorted section.
+
+3.Shift elements: If the element is smaller than its predecessor, shift the sorted elements to the right to make room.
+
+4.Insert the element: Place the picked element in its correct position.
+
+5.Repeat: Continue until all elements are sorted.
+
+
+
+
+                                      Bubble Sort Algorithm
+
+Bubble Sort is a simple comparison-based sorting algorithm. It works by repeatedly stepping through the list, comparing adjacent elements, and swapping them if they are in the wrong order. This process is repeated until the list is sorted.
+
+Here’s how the Bubble Sort algorithm works:
+
+Bubble Sort Algorithm:
+1.Compare adjacent elements: If the first element is greater than the second, swap them.
+
+2.Move to the next pair: Compare the next two adjacent elements and repeat the process.
+
+3.Pass through the list: After one pass, the largest element is placed at the end.
+
+4.Repeat: Repeat the process for the remaining elements, ignoring the last sorted elements
+
+
+
+
+
 
 
 
